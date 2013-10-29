@@ -1,0 +1,2395 @@
+@CHARSET "UTF-8";
+/*---------------------------- Layout ---------------------------------*/
+body {
+	margin: 0;
+	padding: 0;
+	/*background: white url(images/background.jpg) top left repeat-x;*/
+	font-family:tahoma;
+	font-size:11px;
+	color:#888888;
+	text-align: center;
+}
+a, a hover, a visited{
+	color: inherit;
+	cursor: pointer;
+	text-decoration: underline;
+}
+a.help, a.help:hover, a.help:visited{
+	color: #ff0000;
+	cursor: pointer;
+	text-decoration: underline;
+}
+input[type="submit"], input[type="radio"]{
+	cursor: pointer;
+}
+.LayoutTable{
+	border: 1px #CCCCCC solid;
+	width: 100%;
+}
+/*---------------------------- New Design ---------------------------------*/
+.HeaderMenu1IndentLeft{
+	background: url(images/HeaderMenu1IndentLeft.gif) no-repeat;
+	width: 10px;
+	height: 24px;
+}
+.HeaderMenu1LangBackground{
+	background: none;
+	width: 102px;
+	height: 24px;
+	float: right;
+}
+.HeaderMenu1WhatElseBackground{
+	background: url(images/HeaderMenu1WhatElseBackground.gif) no-repeat;
+	width: 194px;
+	height: 41px;
+	font-size: 9px;
+	line-height:22px;
+	color: #B7B7B7;
+	font-family:tahoma;
+	text-align:right;
+	float: left;
+	text-decoration: none;
+}
+.HeaderMenu1BackgroundRight{
+	background: #FFFFFF url(images/HeaderMenu1BackgroundRight.gif) repeat-x;
+	background-position: 296px 0px;
+	width: 860px;
+	height: 24px;
+}
+.HeaderMenu1RightBlock{
+	width:300px;
+	height: 24px;
+	float:right;
+	text-align: right;
+	color: #B7B7B7;
+	font-size: 9px;
+	text-decoration: none;
+}
+.HeaderMenu1RightBlock a{
+	color: #B7B7B7;
+	text-decoration: none;
+}
+.HeaderMenu1IndentRight{
+	background: url(images/HeaderMenu1IndentRight.gif) no-repeat;
+	width: 10px;
+	height: 24px;
+}
+.HeaderMenu2IndentLeft{
+	background: url(images/HeaderMenu2IndentLeft.gif) no-repeat;
+	width: 10px;
+	height: 24px;
+}
+.HeaderMenu2Background{
+	background: #FFFFFF url(images/HeaderMenu2Background.gif) repeat-x;
+	width: 860px;
+	height: 24px;
+	font-family:tahoma;
+	color: #B0B0B0;
+}
+.HeaderMenu2Background a{
+	color: #B0B0B0;
+	text-decoration: none;
+}
+.HeaderMenu2Delimeter{
+	width: 2px;
+	background:url(images/HeaderMenu2Delimeter.gif) no-repeat;
+}
+.HeaderMenu2IndentRight{
+	background: url(images/HeaderMenu2IndentRight.gif) no-repeat;
+	width: 10px;
+	height: 24px;
+}
+.HeaderMenu3IndentLeft{
+	background: url(images/HeaderMenu3IndentLeft.gif) no-repeat;
+	width: 10px;
+	height: 105px;
+}
+
+.NewDesignLogo{
+	position:absolute;
+	display:block;
+	background: url(images/NewDesignLogo.png) no-repeat top left;
+	margin:-25px 0 0 -86px;
+	*margin:-25px 0 0 -271px;
+	width:178px;
+	height:139px;
+	z-index: 10;
+}
+
+.HeaderLogoBlock_ru{
+	background: url(images/HeaderLogoBlockRu.gif) no-repeat;
+	width: 368px;
+	height: 105px;
+	margin-left:40px;
+	float: left;
+}
+.HeaderLogoBlock_en{
+	background: url(images/HeaderLogoBlockEn.gif) no-repeat;
+	width: 368px;
+	margin-left:40px;
+	height: 105px;
+	float: left;
+}
+.HeaderLogoBlock_ua{
+	background: url(images/HeaderLogoBlockUa.gif) no-repeat;
+	width: 368px;
+	margin-left:40px;
+	height: 105px;
+	float: left;
+}
+.HeaderLogoBlock_uk{
+	background: url(images/HeaderLogoBlockUa.gif) no-repeat;
+	width: 408px;
+	height: 105px;
+	float: left;
+}
+.HeaderMenu3Background{
+	background: url(images/HeaderMenu3Background.gif) repeat-x;
+	width: 860px;
+	height: 105px;
+}
+.HeaderMenu3IndentRight{
+	background: url(images/HeaderMenu3IndentRight.gif) no-repeat;
+	width: 10px;
+	height: 105px;
+}
+/*------------------------ End of New Design ------------------------------*/
+.HeaderIndentCornerTopLeft{
+	background: url(images/HeaderCornerTopLeft.gif) no-repeat;
+	width: 10px;
+	height: 10px;
+}
+.HeaderIndentCornerTopRight{
+	background: url(images/HeaderCornerTopRight.gif) no-repeat;
+	width: 10px;
+	height: 10px;
+}
+.HeaderIndentLeft{
+	background: url(images/HeaderIndentLeft.gif) no-repeat;
+	width: 10px;
+	height: 81px;
+}
+.HeaderIndentRight{
+	background: url(images/HeaderIndentRight.gif) no-repeat;
+	width: 10px;
+	height: 81px;
+}
+.Header{
+	background: #FFFFFF url(images/HeaderBackground.gif) repeat-x;
+	width: 860px;
+	height: 81px;
+}
+.SubHeaderCornerTopLeft{
+	background: url(images/SubHeaderIndentCenterTop.gif) no-repeat;
+	width: 10px;
+	height: 10px;
+}
+.SubHeaderCornerTopLeft{
+	background: url(images/SubHeaderCornerTopLeft.gif) no-repeat;
+	width: 10px;
+	height: 10px;
+}
+.SubHeaderIndentTopLeft{
+	background: url(images/SubHeaderIndentTopCenter.gif) repeat-x;
+	width: 260px;
+	height: 10px;
+}
+.SubHeaderIndentTopCenter{
+	background: url(images/SubHeaderIndentTopCenter.gif) repeat-x;
+	width: 10px;
+	height: 10px;
+}
+.SubHeaderIndentTopRight{
+	background: url(images/SubHeaderIndentTopCenter.gif) repeat-x;
+	width: 590px;
+	height: 10px;
+}
+.SubHeaderCornerTopRight{
+	background: url(images/SubHeaderCornerTopRight.gif) no-repeat;
+	width: 10px;
+	height: 10px;
+}
+.SubHeaderIndentLeft{
+	background: url(images/SubHeaderIndentLeft.gif) no-repeat;
+	width: 10px;
+	height: 137px;
+}
+.SubHeaderLeft{
+	background: url(images/SubHeaderBackground.gif) repeat-x;
+	width: 260px;
+	height: 137px;
+	vertical-align:top;
+}
+.SubHeaderIndentCenter{
+	background: url(images/SubHeaderBackground.gif) repeat-x;
+	width: 10px;
+	height: 137px;
+}
+.SubHeaderRight{
+	background: url(images/SubHeaderBackground.gif) repeat-x;
+	width: 590px;
+	height: 137px;
+}
+.SubHeaderIndentRight{
+	background: url(images/SubHeaderIndentRight.gif) no-repeat;
+	width: 10px;
+	height: 137px;
+}
+.PosLeftCornerTopLeft{
+	background: url(images/PosLeftCornerTopLeft.gif) no-repeat;
+	width: 10px;
+	height: 10px;
+}
+.PosLeftIndentTop{
+	background: url(images/PosLeftIndentTop.gif) no-repeat;
+	width: 260px;
+	height: 10px;
+}
+.PosLeftIndentLeftTop{
+	background: url(images/PosLeftIndentLeftTop.gif) no-repeat;
+	width: 10px;
+	height: 20px;
+}
+.PosLeftIndentLeft{
+	background: url(images/PosLeftIndentLeft.gif) repeat-y;
+	width: 10px;
+}
+.PosLeftBackground{
+	background:  url(images/PosLeftBackground.gif) no-repeat;
+	width: 260px;
+	height: 20px;
+	line-height:15px;
+	text-align:left;
+}
+.PosLeftIndentRightTop{
+	background: url(images/PosLeftIndentRightTop.gif) no-repeat;
+	width: 10px;
+	height: 20px;
+}
+.PosLeftIndentRight{
+	background: url(images/PosLeftIndentRight.gif) repeat-y;
+	width: 10px;
+}
+.PosLeftCornerBottomLeft{
+	background: url(images/PosLeftCornerBottomLeft.gif) no-repeat;
+	width: 10px;
+	height: 10px;
+}
+.PosLeftIndentBottom{
+	background: url(images/PosLeftIndentBottom.gif) no-repeat;
+	width: 260px;
+	height: 10px;
+}
+.PosRightIndentTopLeft{
+	background: url(images/PosRightCornerTopLeft.gif) no-repeat;
+	width: 10px;
+	height: 10px;
+}
+.PosRightIndentTop{
+	background: url(images/PosRightIndentTop.gif) repeat-x;
+	width: 590px;
+	height: 10px;
+}
+.PosRightCornerTopRight{
+	background: url(images/PosRightCornerTopRight.gif) no-repeat;
+	width: 10px;
+	height: 10px;
+}
+.PosRightIndentLeftTop{
+	background: url(images/PosRightIndentLeftTop.gif) no-repeat;
+	width: 10px;
+	height: 20px;
+}
+.PosRightBackground{
+	background: url(images/PosRightBackground.gif) repeat-x;
+	width: 590px;
+	vertical-align:top;
+	text-align:left;
+}
+.PosRightIndentRightTop{
+	background: url(images/PosRightIndentRightTop.gif) no-repeat;
+	width: 10px;
+	height: 20px;
+}
+.PosRightIndentRight{
+	background: url(images/PosRightIndentRight.gif) repeat-y;
+	width: 10px;
+}
+.PosRightCornerBottomLeft{
+	background: url(images/PosRightCornerBottomLeft.gif) no-repeat;
+	width: 10px;
+	height: 10px;
+}
+.PosRightIndentBottom{
+	background: url(images/PosRightIndentBottom.gif) repeat-x;
+	width: 590px;
+	height: 10px;
+}
+.PosRightCornerBottomRight{
+	background: url(images/PosRightCornerBottomRight.gif) no-repeat;
+	width: 10px;
+	height: 10px;
+}
+.FooterIndentLeft{
+	background: url(images/FooterIndentLeft.gif) no-repeat;
+	width: 10px;
+	height: 33px;
+}
+.FooterCornerBottomLeft{
+	background: url(images/FooterCornerBottomLeft.gif) no-repeat;
+	width: 10px;
+	height: 10px;
+}
+.FooterBackground{
+	background: url(images/FooterBackground.gif) repeat-x;
+	width: 860px;
+	height: 10px;
+}
+.FooterIndentBottom{
+	background: url(images/FooterIndentBottom.gif) repeat-x;
+	width: 860px;
+	height: 10px;
+}
+.FooterCornerBottomRight{
+	background: url(images/FooterCornerBottomRight.gif) no-repeat;
+	width: 10px;
+	height: 10px;
+}
+.FooterIndentRight{
+	background: url(images/FooterIndentRight.gif) no-repeat;
+	width: 10px;
+	height: 33px;
+}
+.IndentLeft{
+	background: url(images/IndentLeft.gif) repeat-y;
+	width: 10px;
+}
+.IndentRight{
+	background: url(images/IndentRight.gif) repeat-y;
+	width: 10px;
+}
+.TextMenuSelected{
+	font-size: 11px;
+	font-weight: bold;
+	color: #5A5A5A;
+	vertical-align:bottom;
+}
+.TextSelected{
+	font-size: 11px;
+	font-weight: bold;
+	color: #5a5a5a;
+	font-family: tahoma;
+}
+.TextSelectedSerif{
+	font-size: 11px;
+	font-weight: bold;
+	font-family: tahoma;
+	color: #5A5A5A;
+}
+.TextSelectedRed{
+	font-size: 11px;
+	font-weight: bold;
+	color: #FF0000;
+	font-family: tahoma;
+}
+.TextSelectedBlue{
+	font-size: 11px;
+	font-weight: bold;
+	color: #80A5B2;
+}
+.TextSelectedGreen{
+	font-size: 11px;
+	font-weight: bold;
+	color: #2CBB0F;
+}
+.TextNormalBlue{
+	font-size: 11px;
+	font-family: tahoma;
+	color: #80A5B2;
+}
+.TextNormal{
+	font-size: 12px;
+	color: #999898;
+}
+.TextSmallBlack{
+	font-size: 9px;
+	color: #5A5A5A;
+}
+.TextSmallNormal{
+	font-size: 9px;
+	color: #999898;
+}
+.TextSmallBlue{
+	font-size: 9px;
+	color: #80A5B2;
+}
+.TextSmallDisabled{
+	font-size: 9px;
+	color: #BFDAE3;
+}
+.TitleRed{
+	font-size:14px;
+	color: #FF0000;
+	font-weight:bold;
+	font-family:tahoma;
+	line-height: 15px;
+	padding-left:0px;
+}
+.TitleGray{
+	font-size:14px;
+	color: #888888;	
+	font-family:tahoma;
+	font-weight:bold;
+	line-height: 15px;
+	padding-left:0px;
+}
+.TitleBlack{
+	font-size:14px;
+	color: #000000;	
+	font-family:tahoma;
+	font-weight:bold;
+	line-height: 15px;
+	padding-left:0px;
+}
+.TitleBlue{
+	font-size:14px;
+	color:#80a5b2;
+	font-weight:bold;
+	font-family:tahoma;
+	line-height:10px;
+	display:block;
+	padding: 10px 0px 0px 10px;
+}
+.TextContactInfoTitle{
+	font-size:17px;
+	color:#80a5b2;
+	font-family: tahoma;
+	display:block;
+}
+.TextLoginSmallBlue{
+	color: #8AB6C6;
+	font-size: 10px;
+}
+.OptionBlock{
+	padding-top: 10px;
+}
+.TextBlock{
+	padding:5px 5px 5px 6px; 
+	border: 1px #AFD6E6 solid;
+}
+.LoginTable{
+	text-align:left;
+	width:235px;
+	margin-left:15px;
+	line-height: 11px;
+}
+table.LoginTable tr{
+	height:25px;
+}
+.FeedbackLink{
+	float: right;
+	margin: 2px 10px 0px 0px;
+	color: #FF0000;
+	cursor: pointer;
+	text-decoration: underline;
+}
+/*---------------------------- End of layout ---------------------------------*/
+/*-------------------------------- Header ------------------------------------*/
+.MenuSms{
+	background: url(images/HeaderBlockSms.gif) no-repeat;
+	width: 113px;
+	height: 105px;
+	float:left;
+	text-decoration:underline;
+	line-height:150px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.MenuSmsActive{
+	background: url(images/HeaderBlockSmsActive.gif) no-repeat;
+	width: 113px;
+	height: 105px;
+	float:left;
+	color: #5a5a5a;
+	font-weight:bold;
+	line-height:150px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.MenuSmsFree{
+	background: url(images/HeaderBlockSms.gif) no-repeat;
+	width: 113px;
+	height: 105px;
+	float:left;
+	text-decoration:underline;
+	line-height:150px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.MenuSmsFreeActive{
+	background: url(images/HeaderBlockSmsActive.gif) no-repeat;
+	width: 113px;
+	height: 105px;
+	float:left;
+	color: #5a5a5a;
+	font-weight:bold;
+	line-height:150px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.MenuMms{
+	background: url(images/HeaderBlockMms.gif) no-repeat;
+	width: 113px;
+	height: 105px;
+	float:left;
+	text-decoration:underline;
+	line-height:150px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.MenuMmsActive{
+	background: url(images/HeaderBlockMmsActive.gif) no-repeat;
+	width: 113px;
+	height: 105px;
+	float:left;
+	color: #5a5a5a;
+	font-weight:bold;
+	line-height:150px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.MenuMmsFree{
+	background: url(images/HeaderBlockMms.gif) no-repeat;
+	width: 113px;
+	height: 105px;
+	float:left;
+	text-decoration:underline;
+	line-height:150px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.MenuMmsFreeActive{
+	background: url(images/HeaderBlockMmsActive.gif) no-repeat;
+	width: 113px;
+	height: 105px;
+	float:left;
+	color: #5a5a5a;
+	font-weight:bold;
+	line-height:150px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.MenuContacts{
+	background: url(images/HeaderBlockContacts.gif) no-repeat;
+	width: 113px;
+	height: 105px;
+	float:left;
+	text-decoration:underline;
+	line-height:150px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.MenuContactsActive{
+	background: url(images/HeaderBlockContactsActive.gif) no-repeat;
+	width: 113px;
+	height: 105px;
+	float:left;
+	color: #5a5a5a;
+	font-weight:bold;
+	line-height:150px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.MenuHelp{
+	background: url(images/HeaderBlockHelp.gif) no-repeat;
+	width: 113px;
+	height: 105px;
+	float:left;
+	text-decoration:underline;
+	line-height:150px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.MenuHelpActive{
+	background: url(images/HeaderBlockHelpActive.gif) no-repeat;
+	width: 113px;
+	height: 105px;
+	float:left;
+	color: #5a5a5a;
+	font-weight:bold;
+	line-height:150px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.MenuAdmin{
+	background: url(images/HeaderBlockAdmin.gif) no-repeat;
+	width: 108px;
+	height: 91px;
+	float:left;
+	text-decoration:underline;
+	line-height:150px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.MenuAdminActive{
+	background: url(images/HeaderBlockAdminActive.gif) no-repeat;
+	width: 108px;
+	height: 91px;
+	float:left;
+	color: #5a5a5a;
+	font-weight:bold;
+	line-height:150px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.HeaderBlockLanguage{
+	/*background: url(images/HeaderBlockLanguage.gif) no-repeat;*/
+	width: 102px;
+	height: 24px;
+	float: right;
+	font-size:10px;
+	color: #B7B7B7;
+}
+.HeaderBlockLanguage a{
+	color: #B7B7B7;
+	text-decoration: none;
+}
+.LangDelimeter{
+	width: 2px;
+	background:url(images/HeaderBlockLanguageDelimeter.gif) no-repeat;
+}
+/*---------------------------- End of Header ---------------------------------*/
+/*-------------------------------- Footer ------------------------------------*/
+.FooterBlock {
+	background: url(images/FooterBlock.gif) no-repeat;
+	width: 82px;
+	height: 33px;
+	line-height:35px;
+	text-decoration: underline;
+	float:left;
+	overflow:hidden;
+	font-size:9px;
+	cursor: pointer;
+	color: #888888;
+}
+.FooterMainBlock{
+	height: 33px;
+	color: #C9C9C9;
+	font-size:9px;
+	font-family:tahoma;
+	text-align:left;
+	float:left;
+	}
+.FooterMainBlock a{
+	color: #C9C9C9;
+}
+/*---------------------------- End of Footer ---------------------------------*/
+/*------------------------------ Left Menu -----------------------------------*/
+.SubMenuOuter{
+	background: url(images/MenuLeftBackground.gif) repeat-y;
+	background-position:right;
+	line-height: 30px;
+	vertical-align:top;
+	text-align: left;
+	text-indent: 22px;
+}
+.SubMenuTop{
+	background: url(images/MenuLeftTop.gif) no-repeat;
+	width: 260px;
+	height:30px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.SubMenuTopActive{
+	background: url(images/MenuLeftTopActive.gif) no-repeat;
+	width: 260px;
+	height:30px;
+	cursor: pointer;
+	color: #5A5A5A;
+	font-weight: bold;
+}
+.SubMenuMiddle{
+	background: url(images/MenuLeftMiddle.gif) no-repeat;
+	width: 260px;
+	height:30px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.SubMenuMiddleActive{
+	background: url(images/MenuLeftMiddleActive.gif) no-repeat;
+	width: 260px;
+	height:30px;
+	cursor: pointer;
+	color: #5A5A5A;
+	font-weight: bold;
+}
+.SubMenuBottom{
+	background: url(images/MenuLeftBottom.gif) no-repeat;
+	width: 260px;
+	height:31px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.SubMenuBottomActive{
+	background: url(images/MenuLeftBottomActive.gif) no-repeat;
+	width: 260px;
+	height:31px;
+	cursor: pointer;
+	color: #5A5A5A;
+	font-weight: bold;
+}
+.SubMenuSingle{
+	background: url(images/MenuLeftSingle.gif) no-repeat;
+	width: 260px;
+	height:31px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.SubMenuSingleActive{
+	background: url(images/MenuLeftSingleActive.gif) no-repeat;
+	width: 260px;
+	height:31px;
+	cursor: pointer;
+	color: #5A5A5A;
+	font-weight: bold;
+}
+.SubMenuTopParentActive{
+	background: url(images/MenuLeftTopActive.gif) no-repeat;
+	width: 260px;
+	height:25px;
+	cursor: pointer;
+	line-height: 30px;
+	color: #5A5A5A;
+	font-weight: bold;
+}
+.SubMenuSingleParentActive{
+	background: url(images/MenuLeftTopActive.gif) no-repeat;
+	width: 260px;
+	height:25px;
+	cursor: pointer;
+	line-height: 30px;
+	color: #5A5A5A;
+	font-weight: bold;
+}
+.SubMenuMiddleParentActive{
+	background: url(images/MenuLeftMiddleActive.gif) no-repeat;
+	width: 260px;
+	height:25px;
+	cursor: pointer;
+	line-height: 30px;
+	color: #5A5A5A;
+	font-weight: bold;
+}
+.SubMenuBottomParentActive{
+	background: url(images/MenuLeftMiddleActive.gif) no-repeat;
+	width: 260px;
+	height:25px;
+	cursor: pointer;
+	line-height: 30px;
+	color: #5A5A5A;
+	font-weight: bold;
+}
+.SubMenuChildActive{
+	background: url(images/MenuLeftMiddleActive.gif) no-repeat;
+	background-position:bottom;
+	width: 260px;
+	height:18px;
+	cursor: pointer;
+	line-height: 18px;
+	color: #FF0000;
+	font-weight: bold;
+	text-indent: 0px;
+}
+.SubMenuChildActive2{
+	background: url(images/MenuLeftMiddleActive2.gif) repeat-y;
+	background-position:bottom;
+	width: 260px;
+	cursor: pointer;
+	line-height: 14px;
+	color: #FF0000;
+	font-weight: bold;
+	text-indent: 0px;
+}
+
+.SubMenuChild2{
+	background: url(images/MenuLeftMiddleActive2.gif) repeat-y;
+	background-position:bottom;
+	width: 260px;
+	cursor: pointer;
+	line-height: 14px;
+	text-indent: 0px;
+}
+
+.SubMenuChild{
+	background: url(images/MenuLeftMiddleActive.gif) no-repeat;
+	background-position:bottom;
+	width: 260px;
+	height:18px;
+	cursor: pointer;
+	line-height: 18px;
+	text-decoration: underline;
+	text-indent: 0px;
+}
+
+.SubMenuBottomChild{
+	background: url(images/MenuLeftBottomActive.gif) no-repeat;
+	background-position:bottom;
+	width: 260px;
+	height:30px;
+	cursor: pointer;
+	line-height: 18px;
+	text-decoration: underline;
+	text-indent: 0px;
+}
+.SubMenuBottomChildActive{
+	background: url(images/MenuLeftBottomActive.gif) no-repeat;
+	background-position:bottom;
+	width: 260px;
+	height:30px;
+	cursor: pointer;
+	line-height: 18px;
+	color: #FF0000;
+	font-weight: bold;
+	text-indent: 0px;
+}
+.SubMenuBottomChildActive2{
+	background: url(images/MenuLeftMiddleActive2.gif) repeat-y;
+	background-position:bottom;
+	width: 260px;
+	cursor: pointer;
+	line-height: 18px;
+	color: #FF0000;
+	font-weight: bold;
+	text-indent: 0px;
+}
+.GrayDot{
+	width: 17px;
+	height: 18px;
+	background: url(images/GrayDot.gif) no-repeat right;
+	display: block;
+	float: left;
+}
+.GrayDot2{
+	width: 14px;
+	height: 18px;
+	background: url(images/GrayDot2.gif) no-repeat right;
+	display: block;
+	float: left;
+}
+.GrayDot3{
+	width: 18px;
+	height: 18px;
+	background: url(images/GrayDot.gif) no-repeat left;
+	display: block;
+	float: left;
+}
+/*--------------------------- End of Left Menu --------------------------------*/
+/*-------------------------------- WindowMenu  --------------------------------*/
+.WindowMenuOuter{
+	background-position:right;
+	line-height: 30px;
+	vertical-align:top;
+	text-align: left;
+	text-indent: 22px;
+	width: 117px;
+}
+.WindowMenuSingle{
+	background: url(images/WindowMenuSingle.gif) no-repeat;
+	width: 117px;
+	height:31px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.WindowMenuActive{
+	background: url(images/MenuLeftSingleActive.gif) no-repeat;
+	width: 117px;
+	height:31px;
+	cursor: pointer;
+	color: #5A5A5A;
+	font-weight: bold;
+}
+.WindowMenuTop{
+	background: url(images/WindowMenuTop.gif) no-repeat;
+	width: 117px;
+	height:30px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.WindowMenuTopActive{
+	background: url(images/MenuLeftTopActive.gif) no-repeat;
+	width: 117px;
+	height:30px;
+	cursor: pointer;
+	color: #5A5A5A;
+	font-weight: bold;
+}
+.WindowMenuTopParent{
+	background: url(images/MenuLeftTopActive.gif) no-repeat;
+	height:25px;
+	cursor: pointer;
+	line-height: 30px;
+	color: #5A5A5A;
+	font-weight: bold;
+	overflow: hidden;
+}
+.WindowMenuMiddle{
+	background: url(images/WindowMenuMiddle.gif) no-repeat;
+	width: 117px;
+	height:30px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.WindowMenuMiddleActive{
+	background: url(images/MenuLeftMiddleActive.gif) no-repeat;
+	width: 117px;
+	height:30px;
+	cursor: pointer;
+	color: #5A5A5A;
+	font-weight: bold;
+}
+.WindowMenuMiddleParent{
+	background: url(images/MenuLeftMiddleActive.gif) no-repeat;
+	width: 117px;
+	height:25px;
+	cursor: pointer;
+	line-height: 30px;
+	color: #5A5A5A;
+	font-weight: bold;
+}
+.WindowMenuBottom{
+	background: url(images/WindowMenuBottom.gif) no-repeat;
+	width: 117px;
+	height:31px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.WindowMenuBottomActive{
+	background: url(images/MenuLeftBottomActive.gif) no-repeat;
+	width: 117px;
+	height:31px;
+	cursor: pointer;
+	color: #5A5A5A;
+	font-weight: bold;
+}
+.WindowMenuChild{
+	background: url(images/WindowMenuChildActive.gif) repeat-y;
+	background-position: left;
+	height: auto;
+	cursor: pointer;
+	line-height: 18px;
+	text-decoration: underline;
+	text-indent: 0px;
+	text-align: left;
+	padding-left: 10px;
+}
+.WindowMenuChildActive{
+	background: url(images/WindowMenuChildActive.gif) repeat-y;
+	background-position: left;
+	height: auto;
+	cursor: pointer;
+	line-height: 18px;
+	font-weight: bold;
+	text-indent: 0px;
+	color: #FF0000;
+	padding-left: 10px;
+}
+.WindowMenuBottomChild{
+	background: url(images/MenuLeftBottomActive.gif) no-repeat;
+	background-position: left;
+	height:50px;
+	cursor: pointer;
+	line-height: 18px;
+	text-decoration: underline;
+	text-indent: 0px;
+	padding-left: 10px;
+}
+.WindowMenuBottomChildActive{
+	background: url(images/MenuLeftBottomActive.gif) no-repeat;
+	background-position: left;
+	height:50px;
+	cursor: pointer;
+	line-height: 18px;
+	color: #FF0000;
+	font-weight: bold;
+	text-indent: 0px;
+	padding-left: 10px;
+}
+
+
+
+
+
+
+/*--------------------------- End of WindowMenu -------------------------------*/
+/*------------------------------ Blue Block -----------------------------------*/
+.BlueBlockCornerTopLeft{
+	background: #FFFFFF url(images/BlueBlockCornerTopLeft.gif) no-repeat;
+	width: 10px;
+	height:20px;
+}
+.BlueBlockCornerTopLeftWide{
+	background: url(images/BlueBlockCornerTopLeft.gif) no-repeat;
+	width: 10px;
+	height:20px;
+}
+.BlueBlockCornerTopRight{
+	background: #FFFFFF url(images/BlueBlockCornerTopRight.gif) no-repeat;
+	width: 10px;
+	height:20px;
+}
+.BlueBlockCornerTopRightWide{
+	background: url(images/BlueBlockCornerTopRight.gif) no-repeat;
+	width: 10px;
+	height:20px;
+}
+.BlueBlockCornerBottomLeft{
+	background: url(images/BlueBlockCornerBottomLeft.gif) no-repeat;
+	width: 10px;
+	height:10px;
+}
+.BlueBlockCornerBottomRight{
+	background: url(images/BlueBlockCornerBottomRight.gif) no-repeat;
+	width: 10px;
+	height:10px;
+}
+.BlueBlockBackground{
+	background: #F7F7F7 url(images/BlueBlockIndentTop.gif) repeat-x;
+	background-position:top;
+	width: 570px;
+}
+.BlueBlockIndentLeft{
+	background: url(images/BlueBlockIndentLeft.gif) repeat-y;
+	width: 10px;
+}
+.BlueBlockIndentLeftWide{
+	background: url(images/BlueBlockIndentLeftWide.gif) no-repeat;
+	background-position: 0px 10px;
+	width: 10px;
+}
+.BlueBlockIndentRight{
+	background: url(images/BlueBlockIndentRight.gif) repeat-y;
+	width: 10px;
+}
+.BlueBlockIndentRightWide{
+	background: url(images/BlueBlockIndentRightWide.gif) no-repeat;
+	background-position: 0px 10px;
+	width: 10px;
+}
+.BlueBlockIndentBottom{
+	background: url(images/BlueBlockIndentBottom.gif) repeat-x;
+	width: 570px;
+	height:10px;
+}
+/*--------------------------- End of Blue Block -------------------------------*/
+/*------------------------------ Inner Blue Block -----------------------------------*/
+.InnerBlueBlockCornerTopLeft{
+	background: #F7F7F7 url(images/InnerBlueBlockCornerTopLeft.gif) no-repeat;
+	width: 10px;
+	height:10px;
+	overflow: hidden;
+}
+.InnerBlueBlockCornerTopRight{
+	background: #F7F7F7 url(images/InnerBlueBlockCornerTopRight.gif) no-repeat;
+	width: 10px;
+	height:10px;
+	overflow: hidden;
+}
+#innerBlueBlock  .InnerBlueBlockCornerTopLeft {
+        margin-left: -1px;
+    }
+#innerBlueBlock  .InnerBlueBlockCornerTopRight {
+        margin-left: -1px;
+    }
+#innerBlueBlock td {
+        max-width: 111px;
+    }
+#innerBlueBlock input {
+        margin-left: -4px;
+    }
+.InnerBlueBlockCornerBottomLeft{
+	background: url(images/InnerBlueBlockCornerBottomLeft.gif) no-repeat;
+	width: 10px;
+	height:10px;
+}
+.InnerBlueBlockCornerBottomRight{
+	background: url(images/InnerBlueBlockCornerBottomRight.gif) no-repeat;
+	width: 10px;
+	height:10px;
+}
+.InnerBlueBlockBackground{
+	background: #F7F7F7 url(images/InnerBlueBlockIndentTop.gif) repeat-x;
+	background-position:top;
+	width: 164px;
+}
+.InnerBlueBlockIndentLeft{
+	background: url(images/InnerBlueBlockIndentLeft.gif) repeat-y;
+	vertical-align:top;
+	width: 10px;
+}
+.InnerBlueBlockIndentRight{
+	background: url(images/InnerBlueBlockIndentRight.gif) repeat-y;
+	vertical-align:top;
+	width: 10px;
+}
+.InnerBlueBlockIndentBottom{
+	background: url(images/InnerBlueBlockIndentBottom.gif) repeat-x;
+	width: 164px;
+	height:10px;
+}
+.InnerBlueBlockBorderedTop{
+	background: url(images/InnerBlueBlockBorderedTop.gif) repeat-x;
+	background-position:top;
+	height: 10px;
+}
+.InnerBlueBlockHorizontalDelimeter{
+	background: url(images/InnerBlueBlockBorderedTop.gif) repeat-x 0px 7px;
+}
+.InnerBlueBlockHeader{
+	position: relative;
+	top: -6px;
+	color: #80A5B2;
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:bold;
+	padding: 0px 5px 0px 5px;
+	background: url(images/InnerBlueBlockHeader.gif) repeat-x 0px 5px;
+}
+/*--------------------------- End of Inner Blue Block -------------------------------*/
+/*-------------------------------- Objects ------------------------------------*/
+.ObjectSearch{
+	width: 150px;
+	height: 17px;
+	border-right: 1px #EBEBEB solid;
+	border-bottom: 1px #EBEBEB solid;
+	border-left: 1px #CFCCCC solid;
+	border-top: 1px #CFCCCC solid;
+	text-align: right;
+	background: #FFFFFF url(images/ObjectSearchBackground.gif) no-repeat;
+	background-position: 4px 1px;
+}
+.ObjectSearchText{
+	width: 130px;
+	height: 15px;
+	border-width: 0px;
+	font-size: 11px;
+	color: #999898;
+}
+.ObjectSearch_174x17{
+	width: 174px;
+	height: 17px;
+	border-right: 1px #EBEBEB solid;
+	border-bottom: 1px #EBEBEB solid;
+	border-left: 1px #CFCCCC solid;
+	border-top: 1px #CFCCCC solid;
+	text-align: right;
+	background: #FFFFFF url(images/ObjectSearchBackground.gif) no-repeat;
+	background-position: 4px 1px;
+}
+.ObjectSearchText_174x17{
+	width: 154px;
+	height: 15px;
+	border-width: 0px;
+	font-size: 11px;
+	color: #999898;
+}
+.ObjectText{
+	width: 228px;
+	height: 17px;
+	border-right: 1px #EBEBEB solid;
+	border-bottom: 1px #EBEBEB solid;
+	border-left: 1px #CFCCCC solid;
+	border-top: 1px #CFCCCC solid;
+	text-align: right;
+	overflow: hidden;
+}
+.ObjectTextField{
+	width: 228px;
+	height: 15px;
+	border-width: 0px;
+	font-size: 11px;
+}
+.ObjectText_AnyWidth{
+	height: 17px;
+	border-right: 1px #EBEBEB solid;
+	border-bottom: 1px #EBEBEB solid;
+	border-left: 1px #CFCCCC solid;
+	border-top: 1px #CFCCCC solid;
+	text-align: right;
+	color: #999898;
+	overflow: hidden;
+	background: #FFFFFF;
+}
+.ObjectTextField_AnyWidth{
+	height: 15px;
+	border-width: 0px;
+	font-size: 11px;
+	color: #999898;
+	border-width: 0px;
+	font-family: tahoma;
+}
+.ObjectSelect_AnyWidth{
+	height: 19px;
+	border-right: 1px #EBEBEB solid;
+	border-bottom: 1px #EBEBEB solid;
+	border-left: 1px #CFCCCC solid;
+	border-top: 1px #CFCCCC solid;
+	font-size: 10px;
+}
+.ObjectSelectOption_AnyWidth{
+	font-size: 10px;
+	padding: 0px 0px 0px 0px;
+}
+.ObjectSelectNB_AnyWidth{
+	height: 19px;
+	font-size: 11px;
+	border: 1px solid #FFFFFF;
+	margin: -2px -2px 4px -2px;
+	padding-top:2px;
+	vertical-align:bottom;
+	overflow: hidden;
+	color: #999898;
+}
+.ObjectSelectNBOption_AnyWidth{
+	font-size: 10px;
+	padding: 0px 0px 0px 0px;
+}
+div.ObjectCheckBox11{
+	border-color: #AAAAAA #DDDDDD #DDDDDD #AAAAAA;
+	margin: 2px 2px 0px 2px;
+	float: left;
+	width: 9px; height: 9px;
+	border-width: 1px;
+	border-style: solid;
+	overflow: hidden;
+}
+div.ObjectCheckBox11 input{
+	margin: -2px -2px -2px -2px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+	width: 14px; height: 14px;
+	border-width: 0px;
+	cursor: pointer;
+}
+.ObjectSelecterNORMAL17{
+	height: 15px;
+	border-right: 1px #EBEBEB solid;
+	border-bottom: 1px #EBEBEB solid;
+	border-left: 1px #CFCCCC solid;
+	border-top: 1px #CFCCCC solid;
+	text-align: right;
+	color: #999898;
+	overflow: hidden;
+}
+.ObjectSelecterNORMAL17 select{
+	height: 19px;
+	font-size: 11px;
+	border: 1px solid #FFFFFF;
+	margin: -2px -2px 0px -2px;
+	vertical-align:bottom;
+	overflow: hidden;
+	color: #999898;
+	font-family: tahoma;
+}
+.ObjectSelecterNORMAL17 select option{
+	font-size: 10px;
+	padding: 0px 0px 0px 4px;
+}
+.ObjectSelecterNORMAL19{
+	height: 17px;
+	border-right: 1px #EBEBEB solid;
+	border-bottom: 1px #EBEBEB solid;
+	border-left: 1px #CFCCCC solid;
+	border-top: 1px #CFCCCC solid;
+	text-align: right;
+	color: #999898;
+	overflow: hidden;
+}
+.ObjectSelecterNORMAL19 select{
+	height: 19px;
+	font-size: 11px;
+	border: 1px solid #FFFFFF;
+	margin: -2px -2px 4px -2px;
+	padding-top: 2px;
+	vertical-align:bottom;
+	overflow: hidden;
+	color: #999898;
+}
+.ObjectSelecterNORMAL19 select option{
+	font-size: 12px;
+	padding: 0px 0px 0px 4px;
+}
+.ObjectText_AnyWidth17{
+	height: 15px;
+	border-right: 1px #EBEBEB solid;
+	border-bottom: 1px #EBEBEB solid;
+	border-left: 1px #CFCCCC solid;
+	border-top: 1px #CFCCCC solid;
+	text-align: right;
+	color: #999898;
+	overflow: hidden;
+}
+.ObjectText_AnyWidth17 input{
+	height: 15px;
+	border-width: 0px;
+	font-size: 11px;
+	color: #999898;
+	border-width: 0px;
+	margin: -1px -1px -1px -1px;
+	padding-left: 2px;
+	font-family: tahoma;
+}
+.ObjectText_AnyWidth19{
+	height: 17px;
+	border-right: 1px #EBEBEB solid;
+	border-bottom: 1px #EBEBEB solid;
+	border-left: 1px #CFCCCC solid;
+	border-top: 1px #CFCCCC solid;
+	text-align: left;
+	color: #999898;
+	overflow: hidden;
+}
+.ObjectText_AnyWidth19 input{
+	height: 19px;
+	font-size: 11px;
+	border: 1px solid #FFFFFF;
+	margin: -2px -2px 4px -2px;
+	padding: 2px 0px 0px 2px;
+	vertical-align:bottom;
+	overflow: hidden;
+	color: #999898;
+}
+.ObjectCheckboxList{
+	border-right: 1px #EBEBEB solid;
+	border-bottom: 1px #EBEBEB solid;
+	border-left: 1px #CFCCCC solid;
+	border-top: 1px #CFCCCC solid;
+	width: 174px;
+	overflow-y: auto; 
+	overflow-x: hidden;
+	height: 350px;
+	background: #FFFFFF;
+}
+.ObjectCheckboxUnit{
+	width: 174px;
+	height: 16px;
+	background: #FFFFFF;
+	overflow: hidden;
+}
+.ObjectCheckboxUnit a{
+	font-size: 11px;
+	color: #888888;
+	text-decoration: none;
+	line-height: 15px;
+	cursor: default;
+}
+.ObjectCheckboxUnit div{
+	border-color: #AAAAAA #DDDDDD #DDDDDD #AAAAAA;
+	margin: 2px 2px 0px 2px;
+	float: left;
+	width: 9px; height: 9px;
+	border-width: 1px;
+	border-style: solid;
+	overflow: hidden;
+}
+.ObjectCheckboxUnit div input{
+	margin: -2px -2px -2px -2px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+	width: 14px; height: 14px;
+	border-width: 0px;
+	cursor: pointer;
+}
+.ObjectCheckboxUnitActive{
+	width: 174px;
+	height: 16px;
+	background: #B8B8B8;
+	color: #FFFFFF;
+	overflow: hidden;
+}
+.ObjectCheckboxUnitActive a{
+	font-size: 11px;
+	color: #FFFFFF;
+	font-weight: bold;
+	line-height: 15px;
+	text-decoration: none;
+	cursor: default;
+}
+.ObjectCheckboxUnitActive div{
+	border-color: #AAAAAA #DDDDDD #DDDDDD #AAAAAA;
+	margin: 2px 2px 0px 2px;
+	float: left;
+	width: 9px; height: 9px;
+	border-width: 1px;
+	border-style: solid;
+	overflow: hidden;
+}
+.ObjectCheckboxUnitActive div input{
+	margin: -2px -2px -2px -2px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+	width: 14px; height: 14px;
+	border-width: 0px;
+	cursor: pointer;
+}
+.ObjectCheckboxList_198x400{
+	border-right: 1px #EBEBEB solid;
+	border-bottom: 1px #EBEBEB solid;
+	border-left: 1px #CFCCCC solid;
+	border-top: 1px #CFCCCC solid;
+	width: 198px;
+	overflow: auto;
+	height: 400px;
+	background: #FFFFFF;
+}
+.ObjectCheckboxList_198x400 input{
+	margin: 2px 4px 0px 2px;
+	width: 12px; height: 12px;
+	border-width: 0px;
+}
+.ObjectCheckboxList_198x400 span{
+	cursor: pointer;
+}
+.ObjectCheckbox_198x400Unit{
+	width: 198px;
+	height: 16px;
+	overflow:hidden;
+	background: #FFFFFF;
+}
+.ObjectCheckbox_198x400Unit a{
+	font-size: 11px;
+	color: #888888;
+	text-decoration: none;
+	line-height: 15px;
+	cursor: default;
+}
+.ObjectCheckbox_198x400Unit div{
+	border-color: #AAAAAA #DDDDDD #DDDDDD #AAAAAA;
+	margin: 2px 2px 0px 2px;
+	float: left;
+	width: 9px; height: 9px;
+	border-width: 1px;
+	border-style: solid;
+	overflow: hidden;
+}
+.ObjectCheckbox_198x400Unit div input{
+	margin: -2px -2px -2px -2px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+	width: 14px; height: 14px;
+	border-width: 0px;
+	cursor: pointer;
+}
+.ObjectCheckbox_198x400UnitActive{
+	width: 198px;
+	height: 16px;
+	overflow:hidden;
+	background: #8BCEE5;
+	color: #FFFFFF;
+}
+.ObjectCheckbox_198x400UnitActive a{
+	font-size: 11px;
+	color: #FFFFFF;
+	font-weight: bold;
+	line-height: 15px;
+	text-decoration: none;
+	cursor: default;
+}
+.ObjectCheckbox_198x400UnitActive div{
+	border-color: #AAAAAA #DDDDDD #DDDDDD #AAAAAA;
+	margin: 2px 2px 0px 2px;
+	float: left;
+	width: 9px; height: 9px;
+	border-width: 1px;
+	border-style: solid;
+	overflow: hidden;
+}
+.ObjectCheckbox_198x400UnitActive div input{
+	margin: -2px -2px -2px -2px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+	width: 14px; height: 14px;
+	border-width: 0px;
+	cursor: pointer;
+}
+.ObjectTextArea_228x150_Border{
+	background: #FFFFFF;
+	border-right: 1px #EBEBEB solid;
+	border-bottom: 1px #EBEBEB solid;
+	border-left: 1px #CFCCCC solid;
+	border-top: 1px #CFCCCC solid;
+	width: 228px;
+	height: 150px;
+}
+.ObjectTextArea_228x150{
+	width: 228px;
+	height: 149px;
+	border-width: 0px;
+	font-size: 11px;
+}
+.ObjectTextArea_AnySize_Border{
+	background: #FFFFFF;
+	border-right: 1px #EBEBEB solid;
+	border-bottom: 1px #EBEBEB solid;
+	border-left: 1px #CFCCCC solid;
+	border-top: 1px #CFCCCC solid;
+}
+.ObjectTextArea_AnySize{
+	border: none;
+	border-width: 0px;
+	font-size: 11px;
+	line-height: 12px;
+	color: #999898;
+}
+.ObjectCalendar{
+	width: 130px;
+	height: 17px;
+	border-right: 1px #EBEBEB solid;
+	border-bottom: 1px #EBEBEB solid;
+	border-left: 1px #CFCCCC solid;
+	border-top: 1px #CFCCCC solid;
+	float:left;
+}
+.ObjectCalendarTextField{
+	width: 130px;
+	height: 15px;
+	border-width: 0px;
+	font-size: 11px;
+	color: #999898;
+}
+.ObjectCalendarTrigger{
+	float: left;
+	cursor: pointer;
+	padding-left: 4px;
+}
+.ObjectDraggableContainer{
+	width: 533px;
+	height: 385px;
+	border: solid 1px #DCDCDC;
+	background: #FFFFFF;
+	margin: 0px 0px 0px 10px;
+	padding: 17px 0px 0px 15px;
+	
+}
+.ObjectBasket{
+	width: 100px;
+	height: 70px;
+	float: right;
+	z-index: 0;
+	background: url(images/basket.gif) center center no-repeat;
+}
+.ObjectBasketActive{
+	background: url(images/basketActive.gif) center no-repeat;
+}
+.ObjectDraggable{
+	float: left;
+	z-index: 1;
+	cursor: move;
+}
+.PaperBlock{
+	width: 153px;
+	height: 120px;
+	background:url(images/ListPaper.gif);
+	text-align: left;
+	cursor: move;
+	font-family: sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+}
+.PaperBlockText{
+	width: 120px;
+	height: 24px;
+	overflow: hidden;
+	margin-left: 10px;
+	line-height: 12px;
+}
+.SoundBlock{
+	width: 350px;
+	height: 50px;
+	text-align: left;
+}
+.ObjectConfirmForm{
+	width: 355px;
+	height: 100px;
+	position: absolute;
+	left:40%;
+	top:50%;
+	z-index: 8;
+	background-color: #FFFFFF;
+	border: solid #D0E9F2 1px;
+	color: #FF0000;
+	font-weight: bold;
+}
+.ObjectUpload{
+	background: #FF0000 url(images/ListPaper.gif);
+}
+.ButtonSmall{
+	width: 61px;
+	height: 17px;
+	background: url(images/ButtonMiddle.gif);
+	border: none;
+	font-size: 9px;
+	font-weight: bold;
+	color: #5A5A5A;
+	font-family: tahoma;
+	cursor: pointer;
+}
+.ButtonBigSubmit{
+	width: 164px;
+	height: 29px;
+	background: url(images/ButtonBigSubmit.gif);
+	border: none;
+	font-size: 10px;
+	font-weight: bold;
+	color: #5A5A5A;
+	cursor: pointer;
+}
+.Button_110x29{
+	width: 110px;
+	height: 29px;
+	background: url(images/Button_110x29.gif);
+	border: none;
+	font-size: 11px;
+	font-family: tahoma;
+	font-weight: bold;
+	color: #5A5A5A;
+	cursor: pointer;
+}
+.Button_141x29{
+	width: 141px;
+	height: 29px;
+	background: url(images/Button_141x29.gif);
+	border: none;
+	font-size: 11px;
+	font-family: tahoma;
+	font-weight: bold;
+	color: #5A5A5A;
+	cursor: pointer;
+}
+.Button_143x26{
+	width: 143px;
+	height: 26px;
+	background: url(images/Button_144x26.gif);
+	border: none;
+	font-size: 9px;
+	font-weight: bold;
+	line-height: 26px;
+	color: #5A5A5A;
+	cursor: pointer;
+	font-family: tahoma;
+}
+.Button_143x26Disabled{
+	width: 143px;
+	height: 26px;
+	background: url(images/Button_144x26.gif);
+	border: none;
+	font-size: 9px;
+	font-weight: bold;
+	line-height: 26px;
+	color: #CCCCCC;
+	cursor: default;
+	font-family: tahoma;
+	
+}
+.Button_114x19{
+	width: 114px;
+	height: 19px;
+	background: url(images/Button_114x19.gif);
+	border: none;
+	font-size: 9px;
+	font-weight: bold;
+	color: #5A5A5A;
+	cursor: pointer;
+	font-family: tahoma;
+}
+.Button_98x19{
+	width: 98px;
+	height: 19px;
+	background: url(images/Button_98x19.gif);
+	border: none;
+	font-size: 9px;
+	font-weight: bold;
+	color: #5A5A5A;
+	font-family: tahoma;
+	cursor: pointer;
+}
+.Button_51x17{
+	width: 51px;
+	height: 17px;
+	background: url(images/Button_51x17.gif);
+	border: none;
+	font-size: 9px;
+	font-weight: bold;
+	color: #5A5A5A;
+	cursor: pointer;
+}
+.Button_56x17{
+	width: 56px;
+	height: 17px;
+	background: url(images/Button_56x17.gif);
+	border: none;
+	font-size: 9px;
+	font-weight: bold;
+	color: #5A5A5A;
+	font-family: tahoma;
+	cursor: pointer;
+}
+.ButtonInsetBlue_100x19{
+	width: 100px;
+	height: 19px;
+	background: url(images/ButtonInsetBlue_100x19.gif);
+	border: none;
+	font-size: 9px;
+	font-weight: bold;
+	color: #80a5b2;
+	float: left;
+	cursor: pointer;
+}
+.ButtonInsetBlue_100x19_Active{
+	width: 100px;
+	height: 19px;
+	background: url(images/ButtonInsetBlue_100x19_Active.gif);
+	border: none;
+	font-size: 9px;
+	font-weight: bold;
+	color: #80a5b2;
+	float: left;
+	cursor: pointer;
+}
+.ButtonInsetBlue_80x19{
+	width: 80px;
+	height: 19px;
+	background: url(images/ButtonInsetBlue_80x19.gif);
+	border: none;
+	font-size: 9px;
+	font-weight: bold;
+	color: #80a5b2;
+	cursor: pointer;
+}
+.ButtonInsetBlue_80x19_Active{
+	width: 80px;
+	height: 19px;
+	background: url(images/ButtonInsetBlue_80x19_Active.gif);
+	border: none;
+	font-size: 9px;
+	font-weight: bold;
+	color: #80a5b2;
+	cursor: pointer;
+}
+.ButtonBlue_22x19{
+	width: 22px;
+	height: 19px;
+	background: url(images/ButtonBlue_22x19.gif);
+	border: none;
+	font-size: 9px;
+	color: #80a5b2;
+	cursor: pointer;
+	text-align: center;
+}
+.ButtonBlue_22x19 div{
+	border-color: #AAAAAA #DDDDDD #DDDDDD #AAAAAA;
+	margin: 4px 4px 0px 4px;
+	width: 9px; height: 9px;
+	border-width: 1px;
+	border-style: solid;
+	overflow: hidden;
+}
+.ButtonBlue_22x19 div input{
+	margin: -2px -2px -2px -2px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+	width: 14px; height: 14px;
+	border-width: 0px;
+	cursor: pointer;
+}
+.ButtonBlue_22x19_Active{
+	width: 22px;
+	height: 19px;
+	background: url(images/ButtonBlue_22x19_Active.gif);
+	border: none;
+	font-size: 9px;
+	font-family:tahoma;
+	font-weight: bold;
+	color: #80a5b2;
+	cursor: pointer;
+}
+.ButtonBlue_70x19{
+	width: 70px;
+	height: 19px;
+	background: url(images/ButtonBlue_70x19.gif);
+	border: none;
+	font-size: 9px;
+	color: #80a5b2;
+	cursor: pointer;
+}
+.ButtonBlue_85x19{
+	width: 85px;
+	height: 19px;
+	background: url(images/ButtonBlue_85x19.gif);
+	border: none;
+	font-size: 9px;
+	color: #80a5b2;
+	cursor: pointer;
+}
+.ButtonBlue_98x19{
+	width: 98px;
+	height: 19px;
+	background: url(images/ButtonBlue_98x19.gif);
+	border: none;
+	font-size: 9px;
+	font-weight: bold;
+	color: #80a5b2;
+	font-family: tahoma;
+	cursor: pointer;
+}
+.ButtonBlue_118x19{
+	width: 118px;
+	height: 19px;
+	background: url(images/ButtonBlue_118x19.gif);
+	border: none;
+	font-size: 9px;
+	font-weight: bold;
+	color: #80a5b2;
+	cursor: pointer;
+}
+.ButtonBlue_137x19{
+	width: 137px;
+	height: 19px;
+	background: url(images/ButtonBlue_137x19.gif);
+	border: none;
+	font-size: 9px;
+	font-weight: bold;
+	color: #80a5b2;
+	cursor: pointer;
+}
+.ButtonBlue_175x19{
+	width: 175px;
+	height: 19px;
+	background: url(images/ButtonBlue_175x19.gif);
+	border: none;
+	font-size: 9px;
+	font-family:tahoma;
+	font-weight: bold;
+	color: #80a5b2;
+	cursor: pointer;
+}
+.ButtonBlue_180x19{
+	width: 180px;
+	height: 19px;
+	background: url(images/ButtonBlue_180x19.gif);
+	border: none;
+	font-size: 9px;
+	color: #80a5b2;
+	cursor: pointer;
+}
+.ButtonBlue_200x19{
+	width: 200px;
+	height: 19px;
+	background: url(images/ButtonBlue_200x19.gif);
+	border: none;
+	font-size: 9px;
+	font-weight: bold;
+	color: #80a5b2;
+	cursor: pointer;
+}
+.ButtonListingForward{
+	width: 35px;
+	height: 17px;
+	background: url(images/ButtonListingForward.gif);
+	border: none;
+	float: left;
+	cursor: pointer;
+}
+.ButtonListingForwardDisabled{
+	width: 35px;
+	height: 17px;
+	background: url(images/ButtonListingForwardDisabled.gif);
+	border: none;
+	float: left;
+	cursor: pointer;
+}
+.ButtonListingBackward{
+	width: 35px;
+	height: 17px;
+	background: url(images/ButtonListingBackward.gif);
+	border: none;
+	float: left;
+	cursor: pointer;
+}
+.ButtonListingBackwardDisabled{
+	width: 35px;
+	height: 17px;
+	background: url(images/ButtonListingBackwardDisabled.gif);
+	border: none;
+	float: left;
+	cursor: pointer;
+}
+.MessageForm{
+	width: 500px;
+	/*height: 266px;*/
+	background: #FFFFFF;
+	position: absolute;
+	top: 200px;
+	z-index: 4;
+}
+.MessageBlockHeader{
+	background: #F7F7F7;
+	border-bottom: #E4E2E2 dashed 1px;
+	color: #8AB6C6;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: tahoma;
+	text-align: left;
+}
+.MessageBlockRow{
+	border-bottom: #E4E2E2 dashed 1px;
+	color: #888888;
+	font-family: tahoma;
+	text-align: left;
+}
+.MessageBlockFooter{
+	background: #E5E5E5;
+	border-bottom: #D6D5D5 solid 1px;
+	border-bottom: #D6D5D5 solid 1px;
+}
+.MessageBlockButtonClose{
+	width: 19px;
+	height: 18px;
+	background: url(images/MessageBlockButtonClose.gif);
+	float: right;
+	margin: 7px 10px 0px 0px;
+	cursor: pointer;
+}
+.MessageBlockButtonEdit{
+	background: url(images/MessageBlockButtonEdit.gif);
+	width: 103px;
+	height: 26px;
+	float: left;
+	margin-left: 0px;
+	color: #5A5A5A;
+	font-weight: bold;
+	cursor: pointer;
+}
+.MessageBlockButtonEditDisabled{
+	background: url(images/MessageBlockButtonEditDisabled.gif);
+	width: 103px;
+	height: 26px;
+	float: left;
+	margin-left: 0px;
+	color: #A9A9A9;
+	font-weight: bold;
+	cursor: default;
+}
+.MessageBlockButtonResend{
+	background: url(images/MessageBlockButtonResend.gif);
+	width: 103px;
+	height: 26px;
+	float: left;
+	margin-left: 16px;
+	color: #5A5A5A;
+	font-weight: bold;
+	cursor: pointer;
+}
+.MessageBlockButtonForward{
+	background: url(images/MessageBlockButtonForward.gif);
+	width: 103px;
+	height: 26px;
+	float: left;
+	margin-left: 16px;
+	color: #5A5A5A;
+	font-weight: bold;
+	cursor: pointer;
+}
+.MessageBlockButtonDelete{
+	background: url(images/MessageBlockButtonDelete.gif);
+	width: 103px;
+	height: 26px;
+	float: left;
+	margin-left: 16px;
+	color: #5A5A5A;
+	font-weight: bold;
+	cursor: pointer;
+}
+.SentSmsButtonEdit{
+	width: 74px;
+	height: 49px;
+	background: url(images/SentSmsButtonEdit_noleft.gif) center no-repeat;
+	float: left;
+	display: block;
+	text-decoration: none;
+	font-size: 9px;
+	font-family: tahoma;
+	color: #888888;
+	text-align: center;
+	cursor: pointer;
+}
+.SentSmsButtonEditDisabled{
+	width: 74px;
+	height: 49px;
+	background: url(images/SentSmsButtonEditDisabled_n.gif) center no-repeat;
+	float: left;
+	display: block;
+	text-decoration: none;
+	font-size: 9px;
+	font-family: tahoma;
+	text-align: center;
+	color: #E2E2E2;
+	cursor: default;
+}
+.SentSmsButtonCancel{
+	width: 74px;
+	height: 49px;
+	background: url(images/SentSmsButtonCancel.gif) center no-repeat;
+	float: left;
+	display: block;
+	text-decoration: none;
+	font-size: 9px;
+	font-family: tahoma;
+	color: #888888;
+	text-align: center;
+	cursor: pointer;
+}
+.SentSmsButtonCancelDisabled{
+	width: 74px;
+	height: 49px;
+	background: url(images/SentSmsButtonCancelDisabled.gif) center no-repeat;
+	float: left;
+	display: block;
+	text-decoration: none;
+	font-size: 9px;
+	font-family: tahoma;
+	text-align: center;
+	color: #E2E2E2;
+	cursor: default;
+}
+.SentSmsButtonResend{
+	width: 74px;
+	height: 49px;
+	background: url(images/SentSmsButtonResend.gif) center no-repeat;
+	float: left;
+	display: block;
+	text-decoration: none;
+	font-size: 9px;
+	font-family: tahoma;
+	color: #888888;
+	text-align: center;
+	cursor: pointer;
+}
+.SentSmsButtonResendDisabled{
+	width: 74px;
+	height: 49px;
+	background: url(images/SentSmsButtonResendDisabled.gif) center no-repeat;
+	float: left;
+	display: block;
+	text-decoration: none;
+	font-size: 9px;
+	font-family: tahoma;
+	text-align: center;
+	color: #E2E2E2;
+	cursor: default;
+}
+.SentSmsButtonForward{
+	width: 74px;
+	height: 49px;
+	background: url(images/SentSmsButtonForward.gif) center no-repeat;
+	float: left;
+	display: block;
+	text-decoration: none;
+	font-size: 9px;
+	font-family: tahoma;
+	color: #888888;
+	text-align: center;
+	cursor: pointer;
+}
+.SentSmsButtonForwardDisabled{
+	width: 74px;
+	height: 49px;
+	background: url(images/SentSmsButtonForwardDisabled.gif) center no-repeat;
+	float: left;
+	display: block;
+	text-decoration: none;
+	font-size: 9px;
+	font-family: tahoma;
+	text-align: center;
+	color: #E2E2E2;
+	cursor: default;
+}
+.SentSmsButtonDelete{
+	width: 69px;
+	height: 49px;
+	background: url(images/SentSmsButtonDelete.gif) center no-repeat;
+	float: left;
+	display: block;
+	text-decoration: none;
+	font-size: 9px;
+	font-family: tahoma;
+	color: #888888;
+	text-align: center;
+	cursor: pointer;
+}
+.SentSmsButtonDeleteDisabled{
+	width: 69px;
+	height: 49px;
+	background: url(images/SentSmsButtonDeleteDisabled.gif) center no-repeat;
+	float: left;
+	display: block;
+	text-decoration: none;
+	font-size: 9px;
+	font-family: tahoma;
+	text-align: center;
+	color: #E2E2E2;
+	cursor: default;
+}
+.SentSmsCommandIndentLeft{
+	background: url(images/SentSmsCommandIndentLeft.gif) center no-repeat;
+}
+.SentSmsCommandBackground{
+	background: url(images/SentSmsCommandBackground.gif) repeat-x;
+	font-size: 10px;
+}
+.SentSmsCommandIndentRight{
+	background: url(images/SentSmsCommandIndentRight.gif) center no-repeat;
+}
+.SentSmsTableOuter{
+	height: 300px;
+	background: url(images/SentSmsTableBorderBottom.gif) bottom repeat-x;
+	padding-bottom: 8px;
+}
+/* Pending */
+.SentSmsStatus0{
+	width: 36px !important;
+	height: 17px !important;
+	background: url(images/SentSmsStatusPending.gif) center no-repeat;
+	display: block;
+}
+/* Sent */
+.SentSmsStatus1{
+	width: 36px !important;
+	height: 17px !important;
+	background: url(images/SentSmsStatusSent.gif) center no-repeat;
+	display: block;
+}
+/* Canceled */
+.SentSmsStatus2{
+	width: 36px !important;
+	height: 17px !important;
+	background: url(images/SentSmsStatusCanceled.gif) center no-repeat;
+	display: block;
+}
+/* Delivered */
+.SentSmsStatus3{
+	width: 36px !important;
+	height: 17px !important;
+	background: url(images/SentSmsStatusDelivered.gif) center no-repeat;
+	display: block;
+}
+/* Deleted */
+.SentSmsStatus4{
+	width: 36px !important;
+	height: 17px !important;
+	background: url(images/SentSmsStatusDeleted.gif) center no-repeat;
+	display: block;
+}
+/* NotSent */
+.SentSmsStatus5{
+	width: 36px !important;
+	height: 17px !important;
+	background: url(images/SentSmsStatusNotSent.gif) center no-repeat;
+	display: block;
+}
+/* NotDelivered */
+.SentSmsStatus6{
+	width: 36px !important;
+	height: 17px !important;
+	background: url(images/SentSmsStatusNotDelivered.gif) center no-repeat;
+	display: block;
+}
+/* Rejected */
+.SentSmsStatus7{
+	width: 36px !important;
+	height: 17px !important;
+	background: url(images/SentSmsStatusNotSent.gif) center no-repeat;
+	display: block;
+}
+/* Invalid */
+.SentSmsStatus8{
+	width: 36px !important;
+	height: 17px !important;
+	background: url(images/SentSmsStatusNotSent.gif) center no-repeat;
+	display: block;
+}
+/* Undeliverable */
+.SentSmsStatus9{
+	width: 36px !important;
+	height: 17px !important;
+	background: url(images/SentSmsStatusNotSent.gif) center no-repeat;
+	display: block;
+}
+/* Expired */
+.SentSmsStatus10{
+	width: 36px !important;
+	height: 17px !important;
+	background: url(images/SentSmsStatusNotSent.gif) center no-repeat;
+	display: block;
+}
+.PagingBlock{
+	float:left;
+	padding:0px 7px 0px 7px;
+	color:#888888;
+}
+.PagingBlock a{
+	color: #888888;
+}
+/*----------------------------- DisplayTable  ---------------------------------*/
+table.table th{
+	/*background: url(images/DisplayTableHeaderBg.gif) repeat-x;*/
+	border-bottom: solid 1px #E4E2E2;
+	border-top: solid 1px #E4E2E2;
+	background-color: #FAFAFA;
+	text-align: left;
+	height: 28px;
+	font-family:Tahoma, tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #5A5A5A;
+}
+table th.order1{
+	
+	background-image: url(images/order_desc.gif);
+	background-position: center right; 
+	background-repeat: no-repeat;*/
+}
+table th.order2{
+	background-image: url(images/order_asc.gif);
+	background-position: center right; 
+	background-repeat: no-repeat;
+}
+table.table th a{
+	color: #5A5A5A;
+}
+tr.odd td{
+	border-bottom: dashed 1px #E4E2E2;
+	font-family: tahoma;
+	font-size: 9px;
+}
+.table tr.over {
+	border-bottom: 1px solid #C0C0C0;
+	border-top: 1px solid #C0C0C0;
+	color: #000000;
+	cursor: pointer;
+}
+tr.odd td span{
+	width: 100%;
+	height: 100%;
+	display: block;
+	cursor: pointer;
+}
+tr.even td{
+	background-color: #FAFAFA;
+	border-bottom: dashed 1px #E4E2E2;
+	font-family: tahoma;
+	font-size: 9px;
+}
+tr.even td span{
+	width: 100%;
+	height: 100%;
+	display: block;
+	cursor: pointer;
+}
+.SentSmsMsgTableFooter{
+	height: 5px;
+	background: url(images/SentSmsMsgTableFooter.gif) repeat-x;
+}
+.even over{
+	
+}
+/*-------------------------- End of DisplayTable  -----------------------------*/
+/*---------------------------- End of Objects  --------------------------------*/
+/*.mainCentralContentBox{
+	height: 500px;
+	width: 100%;
+}*/
+/* ----- ERRORS ----- */
+form li.error{
+    background-color: #FFDFDF;
+    margin: 3px 0 !important;
+}
+
+input.error, textarea.error{
+    background: #FFCA7A;
+}
+
+p.error, li.error label.desc{
+    color: red !important;
+}
+
+p.error{
+    font-size: 9px !important;
+    margin: 1px 0;
+}
+
+/* ----- REQUIRED ----- */
+.req {
+    font-size: 1em !important;
+    color: #f90;
+    font-weight: bold;
+}
+.button_Xx17{
+	height: 17px;
+	padding: 0px 10px 0px 10px;
+	background: url("images/button_Xx17.gif") repeat-x top;
+	border-top: 0px none;
+	border-right: solid 1px #dedbdb;
+	border-bottom: 0px none;
+	border-left: solid 1px #dfdcdc;
+	font-size: 9px;
+	
+	font-weight:  bold;
+	font-family: tahoma;
+	color: #5a5a5a;
+	white-space: nowrap;
+	cursor:pointer;
+	text-align:center;
+}
+.button_Xx17_noimage{
+	height: 17px;
+	background: #ebebeb;
+	
+	border-top: solid 1px #dedbdb;
+	border-right: solid 1px #dedbdb;
+	border-bottom: solid 1px #dedbdb;
+	border-left: solid 1px #dedbdb;
+	font-size: 9px;	
+	font-weight:  bold;
+	font-family: tahoma;
+	color: #5a5a5a;
+	white-space: nowrap;
+	cursor:pointer;
+	text-align:center;
+}
+.ButtonPreview{
+	height: 29px;
+	padding: 0px 20px 0px 20px;
+	background: url("images/button_Xx29.gif") repeat-x top;
+	border-top: 0 none;
+	border-right: solid 1px #dedbdb;
+	border-bottom: 0 none;
+	border-left: solid 1px #dfdcdc;
+	font-size: 11px;
+	line-height: 29px;
+	font-weight:  bold;
+	font-family: tahoma;
+	color: #5a5a5a;
+	white-space: nowrap;
+	cursor:pointer;
+	text-align:center;
+}
+.error{
+}
+
+.MenuTxt{
+	float: left;
+	width: 90px;
+}
+.cf {zoom: 1;}
+.cf:before, .cf:after {content: ""; display: table;}
+.cf:after {clear: both;}

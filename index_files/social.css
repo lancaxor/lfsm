@@ -1,0 +1,61 @@
+.group_social {
+    padding-left: 22px;
+    text-indent: 0!important;
+}
+    .group_social .links{
+        list-style: none outside none!important;
+        padding: 0px!important;
+        margin:0px!important;    
+    }
+    .group_social .links:after{
+        clear: both;
+        content: " ";
+        display: block;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .group_social .links li {
+        border: none 0px;
+        float: left;
+        margin-right: -1px;
+        width: 71px;
+        padding:0px;
+    }
+    .group_social .links li span {
+        cursor: pointer;
+        display: block;
+        height: 27px;
+        overflow: hidden;
+        text-indent: -999px;
+        width: 71px;
+    }
+    .links .FB_r{
+        background: url(FB_r.png) no-repeat scroll 0 0 transparent;
+    }
+    .links .FB_g{
+        background: url(FB_g.png) no-repeat scroll 0 0 transparent;
+    }
+    .links .VK_r{
+        background: url(VK_r.png) no-repeat scroll 0 0 transparent;
+    }
+    .links .VK_g{
+        background: url(VK_g.png) no-repeat scroll 0 0 transparent;
+    }
+    .links .TW_r{
+        background: url(TW_r.png) no-repeat scroll 0 0 transparent;
+    }
+    .links .TW_g{
+        background: url(TW_g.png) no-repeat scroll 0 0 transparent;
+    }
+    .grouptables {
+        border: 1px solid #E6E6E6;
+        border-collapse: collapse;
+        padding: 3px 0!important;    
+        width: 209px;
+        align:center;
+        height: 294px;
+    }
+
+    #vk_groups {height:290px!important;}
+    #vk_groups iframe {height:290px!important;}
